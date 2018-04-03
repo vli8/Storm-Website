@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Monoton', cursive;	
+	font-size: 80px;
+}
+
+div p {
+	font-weight: 900;
+}
+
+.inline {
+	float: left;
+}
+
+#outerGrid {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#colorOption {
+	font-weight: 900;
+	margin: 10px;
+}
+
+#options {
+	margin-bottom: 20px;
+}
+
+.innerGrid {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000;
+}
+
+input {
+	width: 70px;
+}

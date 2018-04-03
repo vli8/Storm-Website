@@ -1,0 +1,156 @@
+/*Defining the buttons*/
+a{
+  cursor: pointer;
+}
+a.button{
+  padding: .5em;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+a.button:hover{
+  background-color: white;
+  color: black;
+}
+
+#links a:link{
+  color: white;
+  text-decoration: none;
+}
+#links a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+
+/*body*/
+body{
+  color: rgba(26, 26, 26, .25);
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.button #details h1,
+footer address,
+header h1 strong,
+#links{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/*defining the box in section*/
+#details{
+  display: flex;
+  justify-content: space-between;
+}
+#details div{
+  width: 40%;
+}
+#details img{
+  width : 100%;
+}
+#details a{
+  color: rgb(61, 153, 145);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#details a:visited{
+  color: rgb(61, 153, 145);
+  text-decoration: none;
+}
+#details a:link{
+   color:rgb(61, 153, 145);
+   text-decoration: none;
+}
+/*footer*/
+footer {
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, .8);
+  padding: 75px;
+  text-align: center;
+}
+
+footer p {
+  color: rgba(255, 255, 255, .4);
+}
+
+/*defining header*/
+h1 a.button{
+  background-color: rgb(52, 179, 170);
+  font-family: "Avenir Black"
+}
+h1 a.button:hover{
+  background-color: rgba(54, 179, 168, .50);
+  color : inherit;
+}
+h1 a.button:link{
+  color: white;
+  text-decoration: none;
+}
+h1 a.button:visited{
+  color: white;
+  text-decoration: none;
+}
+header{
+  color: white;
+  background-image: url('http://www.technocrazed.com/wp-content/uploads/2015/12/New-York-Wallpaper-Background-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav div a{
+  margin: 1em;
+}
+header h1{
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+}
+
+header h1 a{
+  font-size: 70%;
+}
+header h1 strong{
+  font-size:200%;
+  letter-spacing: 1px;
+}
+header nav{
+  position: absolute;
+  top:0;
+  right: 0;
+  left:0;
+
+  font-size: 100%;
+  padding: 1em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#logo{
+  font-size: 200%;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+#main p{
+  font-size: 150%;
+  font-weight: normal;
+  color: rgba(26,26,26,.9);
+}
+p{
+  line-height: 200%;
+}
+section{
+  text-align: center;
+  margin: 20% 25%;
+}

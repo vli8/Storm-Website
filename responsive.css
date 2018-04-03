@@ -1,0 +1,6 @@
+@media only screen(max-width: 300px){
+  #main p{
+    font-size: 12px;
+    color: red;
+  }
+}
